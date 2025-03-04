@@ -1,0 +1,4 @@
+conda create --name lseg python=3.11
+conda activate lseg
+conda install jupyter
+conda remove -n lseg --all
