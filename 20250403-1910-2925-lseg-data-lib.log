@@ -1,0 +1,12 @@
+[2025-04-03T19:10:48.596891-07:00] - [session] - [DEBUG] - [8633093184 - MainThread] - [_session] - [__init__] - Creating session "sessions.desktop.workspace.0" based on session.desktop.Definition("desktop.workspace")
+[2025-04-03T19:10:48.597666-07:00] - [sessions.desktop.workspace.0] - [DEBUG] - [8633093184 - MainThread] - [_desktop_session] - [__init__] - DesktopSession created with following parameters: app_key="DEFAULT_WORKSPACE_APP_KEY", name="workspace" base_url="http://localhost:9000" platform_path_rdp="/api/rdp" platform_path_udf="/api/udf" handshake_url="/api/handshake"
+[2025-04-03T19:10:48.598816-07:00] - [sessions.desktop.workspace.0] - [DEBUG] - [8633093184 - MainThread] - [_session] - [_connection] - Created session connection SessionCxnType.DESKTOP
+[2025-04-03T19:10:48.598888-07:00] - [sessions.desktop.workspace.0] - [DEBUG] - [8633093184 - MainThread] - [_session_provider] - [session_provider] - Session created: DesktopSession
+		name = workspace
+		connection = DesktopConnection
+		stream_auto_reconnection = True
+		handshake_url = http://localhost:9000/api/handshake
+		state = OpenState.Closed
+		session_id = 0
+		logger_name = sessions.desktop.workspace.0
+[2025-04-03T19:10:48.598942-07:00] - [sessions.desktop.workspace.0] - [DEBUG] - [8633093184 - MainThread] - [_session] - [open] - Open session
