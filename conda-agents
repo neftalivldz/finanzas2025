@@ -1,0 +1,7 @@
+conda update conda
+conda create -n agents python=3.11
+source activate agents
+
+pip install streamlit PyPDF2 sentence-transformers chromadb litellm langchain langchain-community python-dotenv huggingface_hub
+
+conda install jupyter notebook
